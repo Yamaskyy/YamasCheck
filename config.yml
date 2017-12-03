@@ -1,0 +1,60 @@
+# Maksymalny czas sprawdzania!
+# Dostepne jednostki: seconds, minutes, hours, days, weeks, months, years
+max-time-checking: 5
+
+messages:
+
+  # Czy ma wyswitlac powiadomienie o sprawdzaniu na srodku ekranu
+  titleandsubtitle: true
+  
+  # Czy ma wyswitlac powiadomienie na czacie.
+  chat: true
+  
+  # Czy ma wyswitlac powiadomienie na pasku nad poziomem doswiadczenia.
+  actionbar: true
+
+# JEZELI 'titleandsubtitle' JEST TRUE!
+title:
+
+  # Czas w ktorym napis sie pojawia.
+  time-on: 5
+  
+  # Czas w ktorym napis widac.
+  time-is: 10
+  
+  # Czas w ktorym napis bedzie znikac.
+  time-off: 15
+
+subtitle:
+  # Czas w ktorym napis sie pojawia.
+  time-on: 5
+  
+  # Czas w ktorym napis widac.
+  time-is: 10
+  
+  # Czas w ktorym napis bedzie znikac.
+  time-off: 15
+
+# JEZELI 'actionbar' JEST TRUE!
+actionbar:
+
+  # Czas w ktorym napis widac.
+  time-is: 10
+
+# Ustawienia dot. miejsca sprawdzania
+lobby:
+  using: true
+  world: world
+  x: 24.300
+  y: 83.000
+  z: 73.300
+  yaw: 0
+  pitch: 0
+lobbyback:
+  using: true
+  world: world
+  x: -24.300
+  y: 83.000
+  z: -73.300
+  yaw: 0
+  pitch: 0

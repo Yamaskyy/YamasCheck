@@ -1,0 +1,45 @@
+title:
+  # Dostepne zmienne: {PLAYER}, {ADMIN}, {DATE}
+  ss:
+    message: '&4Jestes sprawdzany!'
+  # Dostepne zmienne: {PLAYER}, {ADMIN}
+  cz:
+    message: '&aJestes czysty!'
+subtitle:
+  # Dostepne zmienne: {PLAYER}, {ADMIN}, {DATE}
+  ss:
+    message: '&7Wejdz na TS3! Masz &4{DATE} minut'
+  # Dostepne zmienne: {PLAYER}, {ADMIN}
+  cz:
+    message: ' '
+  cant-say: '&7Nie mozesz uzywac &4komend&7!'
+  cant-break: '&7Nie mozesz &4niszczyc&7!'
+  cant-build: '&7Nie mozesz &4budowac&7!'
+  cant-drop: '&7Nie mozesz &4wyrzucac itemow&7!'
+actionbar:
+  ss:
+    message: '&7Ip teamspeak: &4ts.mastergaming.pl'
+  cz:
+    message: '&7Dziekujemy za wspolprace'
+  allowed-cmds: '&7Dozwolone komendy: &4/helpop&7, &4/msg&7, &4/reply'
+chat:
+  # Dostepne zmienne: {PLAYER}, {ADMIN}, {DATE}
+  ss:
+    message:
+    - '&8---------'
+    - '  &6{PLAYER} &7jest podejrzany do cheaty!'
+    - '  &7Maksymalny czas wejscia na TS3: &6{DATE} minut'
+    - '  &7Osoba sprawdzajaca: &6{ADMIN}'
+    - '  &7Wylogowanie sie &8- &6Perm Ban'
+    - '  &7Przyznanie sie &8- &6Ban na 5 dni'
+    - '  &7Ip ts3 &8- &6ts.mastergaming.pl'
+    - '&8---------'
+  # Dostepne zmienne: {PLAYER}, {ADMIN}
+  cz:
+    message:
+    - '&8---------'
+    - '  &6{PLAYER} &7okazal sie czysty!'
+    - '  &7Osoba sprawdzajaca: &6{ADMIN}'
+    - '&8---------'
+format-chat: '&8[&4SPRAWDZANY&8] &7&o{PLAYER}&8: &6&o{MESSAGE}'
+quit-is-checking: '&6{PLAYER} &cwylogowal sie podczas sprawdzania!'

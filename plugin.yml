@@ -1,0 +1,31 @@
+name: YamasCheck
+main: me.yamas.check.Main
+author: Yamasky
+version: 0.14 Beta
+description: Plugin na sprawdzanie graczy na serwer RCDROP by Yamasky
+commands:
+  sprawdz:
+    aliases: [spr, yspr]
+    description: Glowna komenda pomocy do sprawdzania.
+  yamascheck:
+    aliases: [yc]
+    description: Informacje dot. pluginu
+permissions:
+  yamascheck.*:
+    default: op
+    children:
+      yamascheck.cmd.setlobbyback: true
+      yamascheck.cmd.setlobby: true
+      yamascheck.cmd.sprawdz: true
+      yamascheck.bypass: true
+      yamascheck.admin: true
+  yamascheck.cmd.setlobbyback:
+    default: op
+  yamascheck.cmd.setlobby:
+    default: op
+  yamascheck.cmd.sprawdz:
+    default: op
+  yamascheck.bypass:
+    default: op
+  yamascheck.admin:
+    default: op
